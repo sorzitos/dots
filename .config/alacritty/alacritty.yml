@@ -1,0 +1,72 @@
+# Window Customization
+window:
+  padding:
+    x: 5
+    y: 5
+  opacity: 0.9
+  decorations: full #Still won't show in a window manger, but will in a desktop environment
+
+# Font Customization
+font:
+  normal:
+    family: Source Code Pro
+    style: Regular
+  bold:
+    family: Source Code Pro
+    style: Bold
+  italic:
+    family: Source Code Pro
+    style: Italic
+  size: 7
+
+colors:
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+# Hepburn
+  primary:
+    background: '0x000000'
+    foreground: '0xffffff'
+  normal:
+    black:   '0x000000'
+    red:     '0xEC0101'
+    green:   '0x47D4B9'
+    yellow:  '0xFF8A18'
+    blue:    '0x277FFF'
+    magenta: '0xD71655'
+    cyan:    '0x05A1F7'
+    white:   '0xFFFFFF'
+
+  bright:
+    black:   '0x000000'
+    red:     '0xD41919'
+    green:   '0x5EBDAB'
+    yellow:  '0xFEA44C'
+    blue:    '0x367bf0'
+    magenta: '0xBF2E5D'
+    cyan:    '0x49AEE6'
+    white:   '0xFFFFFF'
+
+  indexed_colors:
+    - { index: 16, color: '0xdc9656' }
+    - { index: 17, color: '0xa16946' }
+    - { index: 18, color: '0x282828' }
+    - { index: 19, color: '0x383838' }
+    - { index: 20, color: '0xb8b8b8' }
+    - { index: 21, color: '0xe8e8e8' }
+
+  selection:
+    text: '0xffffff'
+#    background: '0xdc3232'
+    background: '0xd21e44'
+    white:   '0xffffff'
+
+cursor:
+  style:
+    shape: Underline
+    blinking: on
+    blink-interval: 250
+    unfocused_hollow: true
+
+key_bindings:
+  - { key: N, mods: Control, action: SpawnNewInstance }
